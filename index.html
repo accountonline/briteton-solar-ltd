@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BRITETON SOLAR LTD - Renewable energy solutions">
+    <title>BRITETON SOLAR LTD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>BRITETON SOLAR LTD</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" onclick="toggleNav()">☰</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Your Future Powered by the Sun</h2>
+            <p>Clean, Renewable, and Sustainable Energy Solutions</p>
+            <button onclick="scrollToSection('services')">Explore Our Services</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="content-container">
+            <h2>About Us</h2>
+            <p>BRITETON SOLAR LTD is a leading provider of solar energy solutions. Our mission is to create sustainable energy alternatives that are environmentally friendly and cost-effective. We offer solar panel installation, maintenance, and energy consultation services to homes and businesses.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="content-container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Solar Panel Installation</h3>
+                    <p>Efficient installation of high-quality solar panels for residential and commercial properties.</p>
+                </div>
+                <div class="card">
+                    <h3>Solar Panel Maintenance</h3>
+                    <p>Routine maintenance and performance monitoring to ensure your system runs smoothly.</p>
+                </div>
+                <div class="card">
+                    <h3>Energy Consultation</h3>
+                    <p>Expert advice on optimizing energy usage and reducing your carbon footprint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="content-container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to get a quote, feel free to contact us!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BRITETON SOLAR LTD. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
